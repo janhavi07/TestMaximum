@@ -1,14 +1,22 @@
 package com.maximum;
 
-public class MaximumValue {
-    public <E extends Comparable<E>> E findMaximum(E a, E b,E c){
-        E max=a;
-        if(b.compareTo(max)>0)
-            max=b;
-        if(c.compareTo(max)>0)
-            max=c;
-        if(a.compareTo(max)>0)
-            max=a;
+public class MaximumValue<E extends Comparable> {
+    E value1;
+    E value2;
+    E value3;
+    public MaximumValue(E value1, E value2, E value3){
+        this.value1=value1;
+        this.value2=value2;
+        this.value3=value3;
+    }
+    public <E extends Comparable<E>> E findMaximum(){
+        E max=(E)value1;
+        if(value2.compareTo(max)>0)
+            max=(E)value2;
+        if(value3.compareTo(max)>0)
+            max=(E)value3;
+        if(value1.compareTo(max)>0)
+            max=(E)value1;
         return max;
     }
 }
