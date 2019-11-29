@@ -17,4 +17,11 @@ public class MaximumValueTest {
         Float maxValue=maximumValue.findMaxFloat();
         Assert.assertEquals((Float)10.52f,maxValue);
     }
+
+    @Test
+    public void whenGivenThree_Strings_FindTheMaximum() {
+        MaximumValue maximumValue = new MaximumValue();
+        String maxValue=maximumValue.findMaxString();
+        Assert.assertEquals("Parte",maxValue);
+    }
 }

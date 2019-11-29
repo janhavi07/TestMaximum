@@ -29,4 +29,18 @@ public class MaximumValue {
             max=n1;
         return max;
     }
+
+    public static String findMaxString() {
+        String string1="Janhavi";
+        String string2="Atul";
+        String string3="Parte";
+        String max=string1;
+        if (string2.compareTo(max) > 0)
+            max = string2;
+        if (string3.compareTo(max) > 0)
+            max = string3;
+        if(string1.compareTo(max)>0)
+            max=string1;
+        return max;
+    }
 }
