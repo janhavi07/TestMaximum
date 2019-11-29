@@ -16,6 +16,17 @@ public class MaximumValue {
     }
 
 
-
-
+    public static Float findMaxFloat() {
+        Float n1=10.52f;
+        Float n2=10.25f;
+        Float n3=10.02f;
+        Float max=n1;
+        if (n2.compareTo(max) > 0)
+            max = n2;
+        if (n3.compareTo(max) > 0)
+            max = n3;
+        if(n1.compareTo(max)>0)
+            max=n1;
+        return max;
+    }
 }
