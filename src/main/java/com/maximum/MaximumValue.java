@@ -1,10 +1,11 @@
 package com.maximum;
 
 public class MaximumValue<E extends Comparable> {
+   // E[] values;
     E value1;
     E value2;
     E value3;
-    public MaximumValue(E value1, E value2, E value3){
+    public MaximumValue(E value1,E value2,E value3){
         this.value1=value1;
         this.value2=value2;
         this.value3=value3;

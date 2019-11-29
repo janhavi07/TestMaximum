@@ -46,4 +46,11 @@ public class MaximumValueTest {
         Comparable maxValue=(Integer)integerMaximumValue.findMaximum();
         Assert.assertEquals(10,maxValue);
     }
+
+    @Test
+    public void whenGivenMOreThan_OneParameters() {
+        MaximumValueGeneric<Integer> valueGeneric = new MaximumValueGeneric<>(10, 20, 50, 32, 4);
+        Comparable maxValue=valueGeneric.toPrint();
+        Assert.assertEquals(50,maxValue);
+    }
 }

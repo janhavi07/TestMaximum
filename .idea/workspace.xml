@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e26fe2-17be-40d8-ae91-0674d3277b0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maximum/MaximumValueGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maximum/MaximumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maximum/MaximumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/maximum/MaximumValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maximum/MaximumValueTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +42,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,27 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_FirstPosition">
-    <configuration name="MaximumValueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.maximum.MaximumValueTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_ThirdPosition">
     <configuration name="MaximumValueTest.whenGivenThree_Float_Number_FindTheMaximum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -99,6 +85,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.maximum.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_FirstPosition&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_ThirdPosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.maximum.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_ThirdPosition&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -155,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_ThirdPosition" />
         <item itemvalue="Gradle.MaximumValueTest.whenGivenThree_Integer_FindTheMaximum_At_FirstPosition" />
         <item itemvalue="Gradle.MaximumValueTest.whenGivenThree_Strings_FindTheMaximum" />
         <item itemvalue="Gradle.MaximumValueTest.whenGivenThree_Float_Number_FindTheMaximum" />
         <item itemvalue="Gradle.MaximumValueTest.whenGivenThree_Integer_Number_FindTheMaximum" />
-        <item itemvalue="Gradle.MaximumValueTest" />
       </list>
     </recent_temporary>
   </component>
