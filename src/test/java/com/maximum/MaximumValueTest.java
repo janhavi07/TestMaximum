@@ -33,4 +33,11 @@ public class MaximumValueTest {
         Comparable maxValue=(Integer)integerMaximumValue.findMaximum();
         Assert.assertEquals(10,maxValue);
     }
+
+    @Test
+    public void whenGivenThree_Integer_FindTheMaximum_At_SecondPosition() {
+        MaximumValue<Integer> integerMaximumValue = new MaximumValue<>(9, 10, 8);
+        Comparable maxValue=(Integer)integerMaximumValue.findMaximum();
+        Assert.assertEquals(10,maxValue);
+    }
 }
