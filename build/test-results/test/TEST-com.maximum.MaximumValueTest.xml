@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maximum.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T05:24:54" hostname="admin293-H110M-H" time="0.001">
+<testsuite name="com.maximum.MaximumValueTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-11-29T05:52:40" hostname="admin293-H110M-H" time="0.002">
   <properties/>
-  <testcase name="whenGivenThree_Strings_FindTheMaximum" classname="com.maximum.MaximumValueTest" time="0.001"/>
+  <testcase name="whenGivenThree_Float_Number_FindTheMaximum" classname="com.maximum.MaximumValueTest" time="0.001"/>
+  <testcase name="whenGivenThree_Integer_Number_FindTheMaximum" classname="com.maximum.MaximumValueTest" time="0.0"/>
+  <testcase name="whenGivenThree_Strings_FindTheMaximum" classname="com.maximum.MaximumValueTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
